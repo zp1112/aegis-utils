@@ -11,7 +11,7 @@ const _trim = (str, type) => {
     default:return str;
   }
 };
-export default {
+export default aegisUtils =  {
   subList: (list, curIndex, per) => {
     if (per < 0 || curIndex < 0) {
       return {
