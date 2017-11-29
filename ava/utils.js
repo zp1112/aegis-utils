@@ -1,6 +1,6 @@
 import test from 'ava';
 import chai from 'chai';
-import utils from '../index.js';
+import utils from '../src/index.js';
 
 const expect = chai.expect;
 // convertCurrency

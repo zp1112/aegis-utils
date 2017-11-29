@@ -2,7 +2,7 @@
   "name": "aegis_utils",
   "version": "1.0.0",
   "description": "aegis-utils",
-  "main": "index.js",
+  "main": "/dist/index.js",
   "scripts": {
     "nyc-mocha": "",
     "test-ava": "ava",
@@ -56,9 +56,14 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "browserify": "^14.5.0",
     "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-uglify": "^3.0.0",
     "istanbul": "^1.1.0-alpha.1",
     "mocha": "^4.0.1",
-    "mochawesome": "^2.3.1"
+    "mochawesome": "^2.3.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
