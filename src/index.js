@@ -344,5 +344,5 @@ function convertCurrency (money) {
   }
   return chineseStr;
 }
-
+window.aegisUtils = aegisUtils;
 export default aegisUtils;
