@@ -8,7 +8,7 @@ const source = require('vinyl-source-stream');
 gulp.task('convertJS', function(){
   return gulp.src('src/*.js')
     .pipe(babel({
-      presets: ['es2015']
+      presets: ['es2015', 'stage-2']
     }))
     .pipe(uglify())
     .pipe(gulp.dest('dist'))
