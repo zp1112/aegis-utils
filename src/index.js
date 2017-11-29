@@ -11,7 +11,7 @@ const _trim = (str, type) => {
     default:return str;
   }
 };
-export default aegisUtils =  {
+const aegisUtils = {
   subList: (list, curIndex, per) => {
     if (per < 0 || curIndex < 0) {
       return {
@@ -236,7 +236,7 @@ export default aegisUtils =  {
     .map(k => ({ [k]: obj[k] }))
     .reduce((res, o) => Object.assign(res, o), {}),
     convertCurrency
-};
+}; 
 function quickSort (arr) {
   // 如果数组<=1,则直接返回
   if (arr.length <= 1) { return arr; }
@@ -345,3 +345,4 @@ function convertCurrency (money) {
   return chineseStr;
 }
 
+export default aegisUtils;
