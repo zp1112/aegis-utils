@@ -1,5 +1,5 @@
 /**
- * Created by wuhao on 2017/2/12.
+ * Created by candy on 2017/11/28.
  */
 const _trim = (str, type) => {
   // 去除空格  type 1-所有空格  2-前后空格  3-前空格 4-后空格
@@ -11,7 +11,7 @@ const _trim = (str, type) => {
     default:return str;
   }
 };
-const aegisUtils = {
+const AegisUtils = {
   subList: (list, curIndex, per) => {
     if (per < 0 || curIndex < 0) {
       return {
@@ -344,5 +344,5 @@ function convertCurrency (money) {
   }
   return chineseStr;
 }
-window.aegisUtils = aegisUtils;
-export default aegisUtils;
+
+export default AegisUtils;
