@@ -1,6 +1,6 @@
 {
   "name": "aegis_utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "aegis-utils",
   "main": "/dist/index.js",
   "scripts": {
